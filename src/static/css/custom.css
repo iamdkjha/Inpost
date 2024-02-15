@@ -55,12 +55,24 @@ html,body{
     align-items: center;
     padding: 5px 10px;
     border-bottom: 1px solid var(--global_full_hr_color);
+    background-color: #ffffff;
 }
 
 .header_logo{
     font-weight: 800;
     font-size: 2rem;
 }
+
+.header_search_props_form input{
+    width: 300px;
+    height: 2.4rem;
+    background-color: rgb(242, 233, 255);
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 5px 10px 5px 40px;
+    outline: none;
+}
+
 
 .header_nav_icons{
     position: fixed;
@@ -72,12 +84,16 @@ html,body{
     align-items: center;
     padding: 10px 0;
     border-top: 1px solid var(--global_full_hr_color);
+    background-color: #ffffff;
 }
 
 .header_icons{
     display: flex;
     gap: 1.25rem;
 }
+
+
+
 
 
 /* Responsive Design */
